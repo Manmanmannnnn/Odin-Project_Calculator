@@ -1,0 +1,48 @@
+.container{
+    width: 320px;
+    height: 430px;
+    border:3px solid rgba(7, 6, 6, 0.575);
+    background-color: rgba(177, 171, 171, 0.445);
+    margin: auto;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.display{
+    width: 300px;
+    height: 100px;
+    border: 2px solid rgba(7, 6, 6, 0.575);
+    margin: auto;
+    margin-top: 5px;
+    background-color: rgb(128, 128, 128);
+    display: block;
+    text-align: right;
+    font-size: 30px;
+}
+
+.numberButtons{
+    width:180px;
+    height:320px;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.operatorButtons{
+    width:130px;
+    height:320px;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.display1{
+    display: block;
+    margin-bottom: 15px;
+}
+
+.display2{
+    display: block;
+}
