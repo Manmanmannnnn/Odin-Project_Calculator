@@ -1,11 +1,15 @@
+body{
+    background-color: rgb(46, 44, 44);
+}
 .container{
     width: 320px;
     height: 430px;
-    border:3px solid rgba(7, 6, 6, 0.575);
-    background-color: rgba(177, 171, 171, 0.445);
+    border:3px solid rgba(55, 150, 1, 0.575);
+    background-color: rgba(11, 2, 92, 0.445);
     margin: auto;
     display: flex;
     flex-wrap:wrap;
+    border-radius: 8px;
 }
 
 .display{
@@ -15,7 +19,9 @@
     margin: auto;
     margin-top: 5px;
     background-color: rgb(128, 128, 128);
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
     text-align: right;
     font-size: 30px;
 }
@@ -39,10 +45,12 @@
 }
 
 .display1{
-    display: block;
+    width: 90%;
     margin-bottom: 15px;
+    /* border: 2px solid rgba(7, 6, 6, 0.575); */
 }
 
 .display2{
-    display: block;
+    width: 90%;
+    /* border: 2px solid rgba(7, 6, 6, 0.575); */
 }
