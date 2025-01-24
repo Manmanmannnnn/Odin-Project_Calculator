@@ -106,6 +106,9 @@ function operatorInitialized() {
     }
     if (operator === "÷") {
       let answer = divide(firstNumber, secondNumber);
+      if (answer === "Infinity") {
+        display2.textContent = `${answer}`;
+      }
       display2.textContent = `${answer.toFixed(2)}`;
     }
 
